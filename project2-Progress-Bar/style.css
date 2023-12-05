@@ -23,16 +23,17 @@
     background-color: #cea1a1;
 
 }
-/* .progress-line::before{
-    content: '====';
+.progress-line::before{
+    content: '';
     position: absolute;
     background-color: hsl(0, 0%, 0%);
-    width: 50%;
+    width: 100%;
     height: 4px;
+    /* max-width: fit-content; */
     top: 50%;
     transform: translateY(-50%);
     left: 0px;
-} */
+}
 .progress-line{
     position: absolute;
     background-color: blue;
@@ -44,3 +45,21 @@
     transition:  0.4s ease-in;
 }
 
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    margin-left: 20px;
+    background-color: beige;
+    border-radius: 20%;
+    cursor: pointer;
+}
+button:hover{
+    font-size: larger;
+}
