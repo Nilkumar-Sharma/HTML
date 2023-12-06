@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(90deg,#0a2cec,hwb(133 57% 37%));
+    
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: green;
+}
+
+input{
+    width: 30px;
+    transition:  transform 2s ease;
+}
+button{
+    position: absolute;
+}
+
+input.active  {
+    width:200px;
+    transition:  transform 2s ease;
+}
+button.active{
+    position: relative;
+}
